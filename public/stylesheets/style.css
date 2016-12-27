@@ -12,15 +12,44 @@ a {
 	float: left;
 	width: 30%;
 	margin-left: 50px;
+	font-size: 25px;
 }
 .menu_list {
 	list-style-type: none;
 	float: left;
 	padding-right: 60px;
-	padding-top: 20px;
+	padding-top: 30px;
 	text-transform: uppercase;
 
 }
 .menu_list a {
 	text-decoration: none;
+}
+
+.bar a {
+	text-decoration: none;
+}
+
+.bar {
+	clear: both;
+	position: absolute;
+	right: 80px;
+	top: 30px;
+	font-size: 30px;
+}
+
+.btn-open::after {
+	font-family: "FontAwesome";
+	content: "\f0c9";
+}
+
+.btn-close::after {
+	font-family: "FontAwesome";
+	content: "\f00d";
+}
+
+.container {
+	clear: both;
+	width: 80%;
+	margin: 0 auto;
 }
