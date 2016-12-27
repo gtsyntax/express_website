@@ -53,3 +53,26 @@ a {
 	width: 80%;
 	margin: 0 auto;
 }
+
+.form-control {
+	margin: 10px 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 12px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-control:focus {
+	border: 1px solid #00B7FF;
+}
+
+.submit-btn {
+	background-color: #00B7FF;
+	border: none;
+	padding: 10px 10px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 22px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
